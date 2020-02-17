@@ -45,7 +45,7 @@ ul{
 
 nav{
   margin: 0 auto;
-  width: 60%;
+  width: 50%;
   text-align: center;
 }
 
@@ -79,12 +79,10 @@ margin: 8px 0px;
 padding: 0px 0px 0px 12px;
 }
 
-/*
 main{
-  background-color: green;
   margin-top: 5% 0;
 }
-*/
+
 /*
 main::after{
   content: "";
@@ -92,15 +90,37 @@ main::after{
   clear: both;
 }
 */
-/*
-.colonnasx{
-  width: 25%;
-  float: left;
 
-  background-color: pink;
-  height: 400px;
+.colonnasx{
 }
-*/
+
+.pages{
+  width: 25%;
+  height: 400px;
+  background-color: white;
+  margin-right: 6px;
+  margin-bottom: 22px;
+  display: block;
+}
+
+.archives{
+  width: 25%;
+  height: 120px;
+  background-color: white;
+  margin-top: 6px;
+  margin-bottom: 22px;
+  display: block;
+}
+
+.meta{
+  width: 25%;
+  height: 240px;
+  background-color: white;
+  margin-top: 6px;
+  display: block;
+}
+
+
 /*
 .colonnadx{
   width: 25%;
