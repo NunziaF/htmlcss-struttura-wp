@@ -36,7 +36,6 @@ navigatore{
   bottom: 0%;
   position: relative;
   display: inline-block;
-
 }
 
 ul{
@@ -82,14 +81,6 @@ padding: 0px 0px 0px 12px;
 main{
   margin-top: 5% 0;
 }
-
-/*
-main::after{
-  content: "";
-  display: table;
-  clear: both;
-}
-*/
 
 .colonnasx{
   float: left;
@@ -151,10 +142,68 @@ section{
   margin-bottom: 22px;
 }
 
-
-/*
 footer{
-  background-color: grey;
-  height: 100px;
+  background-color: white;
+  height: 450px;
+  margin-top: 22px;
+  max-width: 1280px;
+  display: block;
 }
-*/
+
+main::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.recentposts{
+  background-color: #504741;
+  height: 300px;
+  width: 20%;
+  bottom: 0%;
+  position: relative;
+  display: block;
+  float: left;
+  margin-right: 1%;
+}
+
+.recentcomments{
+  background-color: #504741;
+  height: 300px;
+  width: 20%;
+  bottom: 0%;
+  position: relative;
+  float: left;
+  display: inline-block;
+  margin-right: 1%;
+}
+
+.categories{
+  background-color: #504741;
+  height: 300px;
+  width: 20%;
+  bottom: 0%;
+  position: relative;
+  float: left;
+  margin-right: 1%;
+  display: inline-block;
+}
+
+.textwidget{
+  background-color: #504741;
+  height: 300px;
+  width: 37%;
+  bottom: 0%;
+  position: relative;
+  float: left;
+}
+
+.crediti{
+  background-color: #504741;
+  height: 150px;
+  width: 100%;
+  bottom: 0%;
+  position: relative;
+  display: inline-block;
+  top: 6px;
+}
