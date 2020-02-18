@@ -82,21 +82,25 @@ main{
   margin-top: 5% 0;
 }
 
+main::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .colonnasx{
   float: left;
+  width: 22%;
 }
 
 .pages{
-  width: 260px;
   height: 400px;
   background-color: white;
-  margin-right: 6px;
   margin-bottom: 22px;
   display: block;
 }
 
 .archives{
-  width: 260px;
   height: 120px;
   background-color: white;
   margin-top: 6px;
@@ -105,7 +109,6 @@ main{
 }
 
 .meta{
-  width: 260px;
   height: 240px;
   background-color: white;
   margin-top: 6px;
@@ -116,26 +119,25 @@ section{
   float: left;
   background-color: white;
   height: 1000px;
-  width: 560px;
-  margin: 0 22px;
+  width: 45%;
   display: block;
+  margin: 0 2%;
 }
 
 .colonnadx{
   float: left;
-  margin-left: 6px;
+  width: 29%;
 }
 
 .search{
-  width: 280px;
   background-color: white;
   height: 90px;
   display: inline-block;
   margin-bottom: 22px;
+  display: block;
 }
 
 .tag{
-  width: 280px;
   background-color: white;
   height: 180px;
   display: block;
@@ -150,11 +152,7 @@ footer{
   display: block;
 }
 
-main::after{
-  content: "";
-  display: table;
-  clear: both;
-}
+
 
 .recentposts{
   background-color: #504741;
